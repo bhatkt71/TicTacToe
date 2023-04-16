@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>online game</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&family=Roboto:wght@500&family=Zeyada&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+        <h1 id="header">TicTacToe</h1> 
+    
+    <div id="wrapper">
+    <button class="all" onclick="fun(0)"></button>
+    <button class="all" onclick="fun(1)"></button>
+    <button class="all" onclick="fun(2)"></button>
+    <br>
+    <button class="all" onclick="fun(3)"></button>
+    <button class="all" onclick="fun(4)"></button>
+    <button class="all" onclick="fun(5)"></button>
+    <br>
+    <button class="all" onclick="fun(6)"></button>
+    <button class="all" onclick="fun(7)"></button>
+    <button class="all" onclick="fun(8)"></button>
+    </div>
+    <br>
+    <br>
+
+    <button onclick="resetgame()" id="btn">reset</button>
+     <br><br>
+     <div id="container">
+
+             <div class="all-sections"><label>Xwon</label>
+            <input readonly class="box" type="text" id="inputx" >
+            </div>
+
+            <div class="all-sections"> <label>Owon</label>
+            <input readonly  class="box" type="text" id="input0">
+            </div>
+
+            <div class="all-sections"> <label>Draw</label>
+                <input readonly class="box" type="text" id="inputdraw">
+            </div>
+            <div class="all-sections"> <label>Total</label>
+                <input readonly  class="box" type="text" id="inputtotal">
+            </div>
+    </div>
+
+    <script src="js/script.js"> </script>
+</body>
+</html>
+
+   
+
+
+
